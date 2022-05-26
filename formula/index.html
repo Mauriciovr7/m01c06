@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Formulario</title>
+    <title>Grilla Bootstrap</title>
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
@@ -13,6 +14,7 @@
 
 <body>
 
+    <!-- navbar -->
     <nav id="navega" class="navbar navbar-expand-lg  navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -26,35 +28,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
-                    </li>
+                    <li class="nav-item">                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>                    </li>
+                    <li class="nav-item">                        <a class="nav-link" href="#">Contacto</a>                    </li>
+                    <li class="nav-item">                        <a class="nav-link" href="#">Nosotros</a>                    </li>
+                    <li class="nav-item">                        <a class="nav-link" href="#">Servicios</a>                    </li>
                     <li class="nav-item dropdown">
-                        <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a> -->
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
+                            <li>                                <hr class="dropdown-divider">                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li> -->
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="escriba aquí" aria-label="Search">
@@ -64,6 +49,7 @@
         </div>
     </nav>
 
+    <!-- card -->
     <div class="container">
         <div class="row">
             <div class="col-4"></div>
@@ -78,29 +64,10 @@
                 </div>
             </div>
             <div class="col-4"></div>
-
         </div>
     </div>
 
-    
-
-    <!-- <form id="formulario">
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">No será compartido</div>
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Aceptar</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-    </form> -->
-
+    <!-- formulario -->
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4 bg-primary">
@@ -141,31 +108,6 @@
                 </div>
             </div>
             <div class="col-3 bg-warning col-lg-2 d-lg-block d-none">
-                <!-- Button trigger modal -->
-                <!-- <button type="button" class="btn btn-primary m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comentarios
-                </button> -->
-
-                <!-- Modal -->
-                <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Ingrese comentarios</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn btn-primary">Guardar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
                 <p>El perro doméstico proviene de un grupo ancestral común que data de hace aproximadamente treinta mil
                     años y desde entonces se ha extendido a todas partes del mundo. Los primeros restos fósiles de
                     perros enterrados junto con seres humanos se encontraron en Israel y datan de hace unos doce mil
@@ -176,7 +118,8 @@
             </div>
         </div>
     </div>
-
+    
+    <!-- Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
